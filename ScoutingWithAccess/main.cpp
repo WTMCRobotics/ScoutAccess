@@ -92,9 +92,9 @@ int main()
 	results.Close();
 	std::wcout << currentTeamMatch.GetString() << std:: endl;
 
-	int autoGearRed3 = 5;
-	std::string autoGearRed3Str = std::to_string(autoGearRed3);
-	CString updateRed3Query = "UPDATE " + red3Team + " SET hasPlayed=true, autoGear=" + autoGearRed3Str.c_str() + " WHERE match=" + currentTeamMatch;
+	int teleopGearRed3 = 5;
+	std::string teleopGearRed3Str = std::to_string(teleopGearRed3);
+	CString updateRed3Query = "UPDATE " + red3Team + " SET hasPlayed=true, teleopGears=" + teleopGearRed3Str.c_str() + " WHERE match=" + currentTeamMatch;
 	database.ExecuteSQL(updateRed3Query);
 
 	std::wcout << currentTeamMatch.GetString() << std::endl;
