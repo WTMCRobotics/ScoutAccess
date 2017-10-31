@@ -1,7 +1,7 @@
-﻿Build started 10/26/2017 9:53:09 PM.
-     1>Project "C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\ScoutingWithAccess\ScoutingWithAccess.vcxproj" on node 2 (Build target(s)).
+﻿Build started 10/31/2017 3:06:28 PM.
+     1>Project "C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\ScoutingWithAccess\ScoutingWithAccess.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\sfml\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt main.cpp
          main.cpp
          Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iostream
          Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
@@ -452,11 +452,108 @@
          Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\bcrypt.h
          Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\ncrypt.h
          Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h
+         Note: including file: C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Config.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Clock.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Export.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Time.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Err.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/FileInputStream.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/InputStream.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/NonCopyable.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Lock.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/MemoryInputStream.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Mutex.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Sleep.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/String.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Utf.hpp
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocbuf
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocmes
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocmon
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xloctime
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctime
+         Note: including file:      C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Utf.inl
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/String.inl
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Thread.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Thread.inl
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/ThreadLocal.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/ThreadLocalPtr.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/ThreadLocalPtr.inl
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Vector2.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Vector2.inl
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Vector3.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/System/Vector3.inl
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Context.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Export.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/GlResource.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/ContextSettings.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Event.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Joystick.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Keyboard.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Mouse.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Sensor.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Touch.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/VideoMode.hpp
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/Window.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/WindowHandle.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Window/WindowStyle.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/BlendMode.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Export.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/CircleShape.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Shape.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Drawable.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/RenderStates.hpp
+         Note: including file:      C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Transform.hpp
+         Note: including file:       C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Rect.hpp
+         Note: including file:        C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Rect.inl
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Transformable.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/VertexArray.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Vertex.hpp
+         Note: including file:      C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Color.hpp
+         Note: including file:     C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/PrimitiveType.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/ConvexShape.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Font.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Glyph.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Texture.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Image.hpp
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/RectangleShape.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/RenderTarget.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/View.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/RenderTexture.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/RenderWindow.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Shader.hpp
+         Note: including file:   C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Glsl.hpp
+         Note: including file:    C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Glsl.inl
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Sprite.hpp
+         Note: including file:  C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\include\SFML/Graphics/Text.hpp
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(20): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(21): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(24): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(26): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(30): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(32): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(36): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(38): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(42): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(44): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(48): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(50): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(54): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(56): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\cyham\documents\visual studio 2013\projects\scoutingprogramaccess\scoutingwithaccess\main.cpp(60): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\Debug\ScoutingWithAccess.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\sfml\lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-window-d.lib" "sfml-network-d.lib" "sfml-system-d.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\Debug\ScoutingWithAccess.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\Debug\ScoutingWithAccess.lib" /MACHINE:X86 Debug\main.obj
-         ScoutingWithAccess.vcxproj -> C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\Debug\ScoutingWithAccess.exe
-     1>Done Building Project "C:\Users\Test\Documents\Visual Studio 2013\Projects\ScoutingWithAccess\ScoutingWithAccess\ScoutingWithAccess.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\Debug\ScoutingWithAccess.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\sfml\lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-window-d.lib" "sfml-network-d.lib" "sfml-system-d.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\Debug\ScoutingWithAccess.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\Debug\ScoutingWithAccess.lib" /MACHINE:X86 Debug\main.obj
+         ScoutingWithAccess.vcxproj -> C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\Debug\ScoutingWithAccess.exe
+     1>Done Building Project "C:\Users\cyham\Documents\Visual Studio 2013\Projects\ScoutingProgramAccess\ScoutingWithAccess\ScoutingWithAccess.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.24
+Time Elapsed 00:00:34.01
