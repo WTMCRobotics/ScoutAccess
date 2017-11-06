@@ -32,7 +32,6 @@ int main()
 
 	std::wcout << red3Team.GetString() << std::endl;
 
-
 	CString selectNextTeamMatchQuery = "SELECT TOP 1 match FROM " + red3Team + " WHERE hasPlayed=false ORDER BY match ASC";
 	results.Open(CRecordset::forwardOnly, selectNextTeamMatchQuery, CRecordset::readOnly);
 	results.GetFieldValue(L"match", currentTeamMatch);
