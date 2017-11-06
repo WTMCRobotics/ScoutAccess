@@ -14,12 +14,12 @@ int main()
 	const int HEAD_HEIGHT = 50;
 	const int BOX_HEIGHT = 325;
 	const int BOX_WIDTH = 333;
-	
+
 	CString red3Team;
 	CString currentTeamMatch;
 	CDatabase database;
 	CRecordset results(&database);
-	CString file = L"C:\\Users\\cyham\\Desktop\\Robotics\\Strange Quarks\\Scouting Program Test\\ScoutAccess\\scouting.accdb";
+	CString file = L"C:\\Users\\Test\\Desktop\\ScoutAccess-master\\scouting.accdb";
 	CString driver = L"MICROSOFT ACCESS DRIVER (*.mdb, *.accdb)";
 	CString dSN;
 	dSN.Format(L"ODBC;DRIVER={%s};DSN='';DBQ=%s", driver, file);
@@ -43,8 +43,6 @@ int main()
 	std::string autoGearRed3Str = std::to_string(autoGearRed3);
 	CString updateRed3Query = "UPDATE " + red3Team + " SET hasPlayed=true, autoGear=" + autoGearRed3Str.c_str() + " WHERE match=" + currentTeamMatch;
 	database.ExecuteSQL(updateRed3Query);
-
-	std::wcout << currentTeamMatch.GetString() << std::endl;
 
 	database.Close();
 	
