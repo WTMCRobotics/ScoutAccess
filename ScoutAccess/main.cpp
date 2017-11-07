@@ -3,18 +3,17 @@
 #include <afxdb.h>
 #include <SFML/Graphics.hpp>
 
+const int WIN_WIDTH = 999;
+const int WIN_HEIGHT = 700;
+
+const int BORDER_WIDTH = 2;
+
+const int HEAD_HEIGHT = 50;
+const int BOX_HEIGHT = 325;
+const int BOX_WIDTH = 333;
 
 int main()
 {
-	const int WIN_WIDTH = 999;
-	const int WIN_HEIGHT = 700;
-
-	const int BORDER_WIDTH = 2;
-
-	const int HEAD_HEIGHT = 50;
-	const int BOX_HEIGHT = 325;
-	const int BOX_WIDTH = 333;
-
 	CString red3Team;
 	CString currentTeamMatch;
 	CDatabase database;
@@ -31,7 +30,6 @@ int main()
 	results.Close();
 
 	std::wcout << red3Team.GetString() << std::endl;
-
 
 	CString selectNextTeamMatchQuery = "SELECT TOP 1 match FROM " + red3Team + " WHERE hasPlayed=false ORDER BY match ASC";
 	results.Open(CRecordset::forwardOnly, selectNextTeamMatchQuery, CRecordset::readOnly);
@@ -93,11 +91,11 @@ int main()
 
 	for (int i = 0; i < 8; i++)
 	{
-	std::cout << "Joystick " << i << " : ";
-	if (sf::Joystick::isConnected(i))
-	std::cout << "true\n";
-	else
-	std::cout << "false\n";
+		std::cout << "Joystick " << i << " : ";
+		if (sf::Joystick::isConnected(i))
+		std::cout << "true\n";
+		else
+		std::cout << "false\n";
 	}
 	
 	while (window.isOpen())
